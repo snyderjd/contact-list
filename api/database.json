@@ -1,14 +1,28 @@
 {
-  "posts": [
+  "contacts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Brantley",
+      "phoneNumber": "(555) 333-1111",
+      "address": "100 Main Street"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Bennett",
+      "phoneNumber": "(555) 333-2222",
+      "address": "200 Main Street"
+    },
+    {
+      "id": 3,
+      "name": "Joe",
+      "phoneNumber": "(555) 333-3333",
+      "address": "300 Main Street"
+    },
+    {
+      "id": 4,
+      "name": "Haroon",
+      "phoneNumber": "(555) 333-4444",
+      "address": "400 Main Street"
     }
   ],
   "comments": [

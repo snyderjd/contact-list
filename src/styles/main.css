@@ -1,0 +1,21 @@
+.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact__form input, .contact__form button {
+    width: 200px;
+    margin: 10px;
+}
