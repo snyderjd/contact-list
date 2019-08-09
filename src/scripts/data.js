@@ -5,13 +5,14 @@ const data = Object.create({
     },
 
     saveContact: (contactObject) => {
-        fetch("http://localhost:8088/contacts", {
+        return fetch("http://localhost:8088/contacts", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(entryObject)
-        }).then(response => response.json());
+            body: JSON.stringify(contactObject)
+        })
+        .then(response => response.json());
     }
 });
 

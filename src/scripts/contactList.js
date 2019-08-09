@@ -8,7 +8,6 @@ const contactList = Object.create({
         data.getContacts().then(parsedContacts => {
 
             parsedContacts.forEach(contact => {
-                console.log("displayContacts");
                 const contactHTML = contacts.createHTML(contact);
                 contacts.addToDOM(contactContainer, contactHTML);
             });

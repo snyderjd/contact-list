@@ -13,7 +13,6 @@ const contacts = Object.create({
 
     addToDOM: (container, HTMLString) => {
         container.innerHTML += HTMLString;
-        console.log("addToDOM");
     }
 });
 
