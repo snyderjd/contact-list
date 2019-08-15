@@ -13,6 +13,22 @@ const data = Object.create({
             body: JSON.stringify(contactObject)
         })
         .then(response => response.json());
+    },
+
+    saveUser: (userObject) => {
+        return fetch("http://localhost:8088/users", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(userObject)
+        })
+        .then(response => response.json());
+    },
+
+    getUsers: () => {
+        return fetch("http://localhost:8088/users")
+            .then(response => response.json());
     }
 });
 

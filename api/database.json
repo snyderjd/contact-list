@@ -61,14 +61,21 @@
       "id": 10
     }
   ],
-  "comments": [
+  "users": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "snyderjosephd",
+      "email": "snyderjosephd@yahoo.com"
+    },
+    {
+      "username": "bob",
+      "email": "bob@yahoo.com",
+      "id": 2
+    },
+    {
+      "username": "bill",
+      "email": "bill@yahoo.com",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
